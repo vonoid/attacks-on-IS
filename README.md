@@ -106,8 +106,8 @@ Exploit-DB: https://www.exploit-db.com/exploits/16320
 
 Закрытый порт → RST-ACK.
 
-![SYN]([ссылка на скриншот 2](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/21.jpg))
-![SYN]([ссылка на скриншот 2](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/22.jpg))
+![SYN](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/21.jpg))
+![SYN](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/22.jpg))
 
 
 ##### FIN-сканирование (-sF)
@@ -126,8 +126,8 @@ Exploit-DB: https://www.exploit-db.com/exploits/16320
 
 Закрытый порт → RST.
 
-![FYN]([ссылка на скриншот 2](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/23.jpg))
-![FYN]([ссылка на скриншот 2](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/24.jpg))
+![FYN](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/23.jpg))
+![FYN](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/24.jpg))
 
 
 #### Xmas-сканирование (-sX)
@@ -145,8 +145,8 @@ Exploit-DB: https://www.exploit-db.com/exploits/16320
 
 Аналогично FIN-сканированию.
 
-![Xmas]([ссылка на скриншот 2](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/25.jpg))
-![Xmas]([ссылка на скриншот 2](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/26.jpg))
+![Xmas](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/25.jpg))
+![Xmas](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/26.jpg))
 
 
 #### UDP-сканирование (-sU)
@@ -166,7 +166,7 @@ Exploit-DB: https://www.exploit-db.com/exploits/16320
 
 Закрытый UDP-порт → ICMP type 3 (Destination Unreachable).
 
-![Xmas]([ссылка на скриншот 2](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/27.jpg))
-![Xmas]([ссылка на скриншот 2](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/28.jpg))
+![Xmas](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/27.jpg))
+![Xmas](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/28.jpg))
 
 
