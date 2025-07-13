@@ -28,6 +28,50 @@
 ![nmap -sV -A](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/1.jpg)
 ![nmap -sV -A](https://github.com/vonoid/attacks-on-IS/blob/a4918e4703cc4dbcb5d7f4f6af1c54341d26b852/12.jpg)
 
+В результате сканирования (nmap -sV -A 192.168.88.26) были выявлены следующие открытые порты и службы:
+
+21/tcp – FTP (vsftpd 2.3.4) – Разрешён анонимный вход (Anonymous FTP login allowed).
+
+22/tcp – SSH (OpenSSH 4.7p1) – Устаревшая версия, возможны уязвимости.
+
+23/tcp – Telnet – Позволяет удалённое управление (небезопасно).
+
+25/tcp – SMTP (Postfix) – Возможны атаки на почтовый сервер.
+
+53/tcp – DNS (ISC BIND 9.4.2) – Уязвимый DNS-сервер.
+
+80/tcp – HTTP (Apache 2.2.8) – Веб-сервер с возможными уязвимостями.
+
+139/tcp, 445/tcp – Samba (smbd 3.0.20-Debian) – Уязвимый файловый сервер.
+
+1524/tcp – Bindshell (Metasploitable root shell) – Опасный открытый шелл.
+
+3306/tcp – MySQL (5.0.51a-3ubuntu5) – Устаревшая СУБД с известными дырами.
+
+5432/tcp – PostgreSQL (8.3.0-8.3.7) – Уязвимая версия базы данных.
+
+5900/tcp – VNC (без пароля?) – Возможен удалённый доступ.
+
+6667/tcp – IRC (UnrealIRCd 3.2.8.1) – Содержит бэкдор.
+
+8009/tcp, 8180/tcp – Apache Tomcat – Возможны RCE-уязвимости.
+
+Уязвимость в vsftpd 2.3.4 (Backdoor Command Execution, CVE-2011-2523)
+Описание: Встроенный бэкдор позволяет выполнить произвольные команды.
+
+Exploit-DB: https://www.exploit-db.com/exploits/49757
+
+
+Уязвимость в UnrealIRCd 3.2.8.1 (Backdoor RCE, CVE-2010-2075)
+Описание: Встроенный бэкдор позволяет выполнить команды через IRC.
+
+Exploit-DB: https://www.exploit-db.com/exploits/13853
+
+
+Уязвимость в Samba 3.0.20 (CVE-2007-2447, Usermap Script RCE)
+Описание: Позволяет выполнить команды через неправильную обработку имени пользователя.
+
+Exploit-DB: https://www.exploit-db.com/exploits/16320
 
 
 ---
